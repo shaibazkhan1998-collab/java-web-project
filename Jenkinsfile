@@ -8,8 +8,7 @@ pipeline {
     stages {
         stage('Git Checkout') {
             steps {
-                git branch: "${env.BRANCH_NAME}",
-                url: 'https://github.com/shaibazkhan1998-collab/java-web-project.git'
+                'git branch: 'development', url: 'https://github.com/shaibazkhan1998-collab/java-web-project.git''
             }
         }
 
