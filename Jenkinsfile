@@ -27,7 +27,7 @@ pipeline {
                     path: '',
                     alternativeDeploymentContext: ''
                 )],
-                contextPath: 'java-web-app',
+                contextPath: 'java-web-app-master',
                 war: '**/*.war'
             }
         }
